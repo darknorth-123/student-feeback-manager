@@ -19,6 +19,6 @@ jobs:
       run: |
         pip install pytest
 
-        - name: Display Hello Message
-          run: echo "CI is working!"
+    - name: Display Hello Message
+      run: echo "CI is working!"
          
